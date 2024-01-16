@@ -27,8 +27,7 @@ Thanks: [aqz](https://github.com/tamaina)様<br />
 
 そこで、ここの設立者である[aqz](https://github.com/tamaina)様とコンタクトをとることにしました。<br />
 最終的にはMisskeyにてaqz様がMisskeyで投稿を行っている時間帯を狙ってメッセージを送ったらすぐに対応していただけました。<br />
-(aqz様はMisskey本体の2番目の開発貢献者です。<br />
-ちなみに1番目はMisskeyの設立者であるしゅいろさん。)<br />
+(aqz様は[Misskey本体](https://github.com/misskey-dev/misskey)の開発関係者です。)<br />
 本当にありがとうございます!!<br />
 
 ## 歴史
