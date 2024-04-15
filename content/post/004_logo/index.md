@@ -1,7 +1,7 @@
 ---
 title: 翠巒祭会議
 description: ロゴ発表
-slug: suiran-003
+slug: suiran-004
 date: 2024-04-15 16:06:00+0900
 image: logo.jpg
 categories:
