@@ -99,8 +99,26 @@ hasCJKLanguage = true
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-github\" aria-hidden=\"true\"></i>"
   url = "https://github.com/suiranfes"
+[[menu.links]]
+  weight = 2
+  identifier = "twitter"
+  name = "Twitter (X)"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-twitter\" aria-hidden=\"true\"></i>"
+  url = "https://twitter.com/suiranfes"
+[[menu.links]]
+  weight = 3
+  identifier = "youtube"
+  name = "YouTube"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-youtube\" aria-hidden=\"true\"></i>"
+  url = "https://www.youtube.com/@suiranfestivalweb"
+[[menu.links]]
+  weight = 4
+  identifier = "instagram"
+  name = "Instagram"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-instagram\" aria-hidden=\"true\"></i>"
+  url = "https://www.instagram.com/suiranfes_tktk/"
 # [[menu.links]]
-#   weight = 2
+#   weight = 5
 #   identifier = "stackoverflow"
 #   name = "Stack Overflow"
 #   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\" aria-hidden=\"true\"></i>"
