@@ -37,8 +37,8 @@ tags:
 
 利用するアプリケーションはこちらです: <https://shop.suiranfes.blue/>
 
-<img alt="screen-shot" width="30%" src="sc1.png">
-<img alt="screen-shot" width="30%" src="sc2.png">
+<img alt="screen-shot" width="30%" src="sc1.png" />
+<img alt="screen-shot" width="30%" src="sc2.png" />
 
 <!--
 ちなみに、このアプリケーションは列が長いときに有効的で、列がほとんどないときは口頭のほうが早いです。
@@ -58,8 +58,8 @@ tags:
 
 **アプリケーション内に説明ページがあります**。やや文章が長いですが、大抵のお客様は理解できると思います。
 
-<img alt="screen-shot" width="30%" src="sc3.png">
-<img alt="screen-shot" width="30%" src="sc4.png">
+<img alt="screen-shot" width="30%" src="sc3.png" />
+<img alt="screen-shot" width="30%" src="sc4.png" />
 
 (使い方がわかっていなさそうだったら、口頭で聞いてもらっても構いません)
 
@@ -69,8 +69,8 @@ tags:
 
 お客様は、**QR コードを読み取って**もらい、用意しておいた**お金**と、模擬店班員が用意している**食券**を**交換**します。
 
-<img alt="screen-shot" width="30%" src="sc5.png">
-<img alt="screen-shot" width="30%" src="sc6.png">
+<img alt="screen-shot" width="30%" src="sc5.png" />
+<img alt="screen-shot" width="30%" src="sc6.png" />
 
 (先述しましたが、QR コード、お金を先に用意してもらえると、非常にスムーズに進みます)
 
