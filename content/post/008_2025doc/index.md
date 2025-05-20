@@ -24,5 +24,13 @@ tags:
 ###　使い方(詳細)
 模擬店班チーフは、以下の「設定」を行ってください。
 #### 設定
-
+1. suirankaikei@gmail.comにログイン
+2. [Google Cloudのオーディエンス](https://console.cloud.google.com/auth/audience?inv=1&invt=Abx3Qw&project=gssheettest-448509)を開き、下の方にある「Add user」をクリック
+3. 当日アプリを使用する人のgoogleアカウントを登録。
+4. [スプレッドシート](https://docs.google.com/spreadsheets/d/1nmwhBjzqQ1J31PresVmXLAlLozgWs-WUZh1KmJuhawE/edit?gid=2000281178#gid=2000281178)の共有設定でも、当日アプリを使用する人のgoogleアカウントに編集を許可。
 #### 当日
+さっき試してみたように使えばOK！
+##### 備考
+* 注文を入力するアプリを使ってないお客さんからは、口頭で注文を聞いて、電卓ページで入力します
+* インターネット接続が不安定になると、データを送信できなくなるかもしれません。その時は、アプリのデータページを見ると、「共有」が×の行ができるので、後でインターネットが安定したら、画面上部の「共有できていないデータを再送信」ボタンを押しましょう
+* [スプレッドシート](https://docs.google.com/spreadsheets/d/1nmwhBjzqQ1J31PresVmXLAlLozgWs-WUZh1KmJuhawE/edit?gid=2000281178#gid=2000281178)は、「購入情報」のシートを壊さなければ何をしても大丈夫です。（もし消してしまったら、同じ名前のシートを作れば大丈夫ですが、それまでのデータはすべて消えます。）
