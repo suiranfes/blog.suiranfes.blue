@@ -38,7 +38,9 @@ tags:
 利用するアプリケーションはこちらです: <https://shop.suiranfes.blue/>
 
 ![screen shot](sc1.png)
+<!--
 ![screen shot](sc2.png)
+-->
 
 <!--
 <img alt="screen-shot" width="30%" src="sc1.png" />
@@ -79,7 +81,9 @@ tags:
 
 お客様は、**QR コードを読み取って**もらい、用意しておいた**お金**と、模擬店班員が用意している**食券**を**交換**します。
 
+<!--
 ![screen shot](sc5.png)
+-->
 ![screen shot](sc6.png)
 
 <!--
