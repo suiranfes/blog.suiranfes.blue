@@ -45,8 +45,12 @@ tags:
 
 1. suirankaikei@gmail.com にログイン
 2. [Google Cloud のオーディエンス](https://console.cloud.google.com/auth/audience?inv=1&invt=Abx3Qw&project=gssheettest-448509)を開き、下の方にある「Add user」をクリック
+![add User](addUser.png)
 3. 当日アプリを使用する人の Google アカウントを登録
+![登録](input.png)
 4. [スプレッドシート](https://docs.google.com/spreadsheets/d/1nmwhBjzqQ1J31PresVmXLAlLozgWs-WUZh1KmJuhawE/edit?gid=2000281178#gid=2000281178)の共有設定でも、当日アプリを使用する人の Google アカウントに編集を許可
+![Google spread sheet 1](gsp.png)
+![Google spread sheet 2](gsp2.png)
 
 #### 当日
 
