@@ -49,8 +49,8 @@ tags:
 
 #### 設定
 
-1. 模擬店班チーフにGoogle Cloudの「GSsheet」プロジェクトに入れてもらう
-   ※Googleアカウントで入れてもらってください
+1. 前模擬店班チーフからGoogleアカウント(suirankaikei@gmail.com)を引き継ぐ
+   詳しくは、[引き継ぎの記事](https://blog.suiranfes.blue/post/suiran-010/)へ
 2. [Google Cloud のオーディエンス](https://console.cloud.google.com/auth/audience?inv=1&invt=Abx3Qw&project=gssheettest-448509)を開き、下の方にある「Add User」をクリック  
    ![Google Cloud / Audience Page](06-add-user.png)
 3. 当日アプリを使用する人の Google アカウントを登録  
