@@ -16,14 +16,16 @@ tags:
 ### どんなアプリなのか
 
 こんなアプリです ()
-このアプリ内で用いるのは**Googleアカウント**なので注意してください。
 
 ![app.structre](suiran.sell.drawio.png)
 
-試すのが早いので、まずは試してみましょう。※チーフが設定を終えていないとうまくいきません
+試すのが早いので、まずは試してみましょう。
+
+- ※チーフが設定を終えていないとうまくいきません
+- ※このアプリでは、**Google アカウント**を利用するので注意してください。
 
 1. (店側) [模擬店会計アプリ](https://sell.suiranfes.blue/)を開き、画面右下の人のマークから、ログインページに行き、Google アカウントにログイン  
-（いくつか警告が出るかもしれませんが、その時は「続行」か「次へ」を押してください。）
+   (いくつか警告が出るかもしれませんが、その時は「続行」か「次へ」を押してください)
    ![login](login.gif)
 2. (お客様側) [コチラのアプリ(お客さんが使う方)](https://shop.suiranfes.blue/)を開いて注文を入力して、QR コードを表示させる  
    ![makeQR](makeQR.gif)
@@ -49,10 +51,10 @@ tags:
 
 1. 模擬店班チーフにGoogle Cloudの「GSsheet」プロジェクトに入れてもらう
    ※Googleアカウントで入れてもらってください
-2. [Google Cloud のオーディエンス](https://console.cloud.google.com/auth/audience?inv=1&invt=Abx3Qw&project=gssheettest-448509)を開き、下の方にある「Add user」をクリック  
+2. [Google Cloud のオーディエンス](https://console.cloud.google.com/auth/audience?inv=1&invt=Abx3Qw&project=gssheettest-448509)を開き、下の方にある「Add User」をクリック  
    ![add User](addUser.png)
 3. 当日アプリを使用する人の Google アカウントを登録  
-   必ず**Googleアカウント**でお願いします
+   必ず**Googleアカウント**でお願いします  
    ![登録](input.png)
 4. [スプレッドシート](https://docs.google.com/spreadsheets/d/1nmwhBjzqQ1J31PresVmXLAlLozgWs-WUZh1KmJuhawE/edit?gid=2000281178#gid=2000281178)の共有設定でも、当日アプリを使用する人の Google アカウントに編集を許可  
    ![Google spread sheet 1](gsp.png)
@@ -62,15 +64,15 @@ tags:
 
 ##### 翠巒祭が始まる前に必ずやること
 
-チーフ
-➡スプレッドシートの「購入情報」シートにデータがない状態にする。
-　　残っていると情報が混ざってしまいます。始まる直前に確認しましょう。
-　　※1行目の「時間、チュロス、...」は消さないでください。
-班員（アプリを試した人全員）
-➡ [模擬店会計アプリ](https://sell.suiranfes.blue/)を開き、保存したデータをすべて消す（消し方は**備考**に）
-　　消したらテスト使用はしないでください
-　　※またテストしたらそのデータもしっかり消すように
-　　消しておかないと、テストで保存したデータが本番用としてスプレッドシートに残ってしまいます。
+- チーフ
+  - ➡スプレッドシートの「購入情報」シートにデータがない状態にする。  
+  - 残っていると情報が混ざってしまいます。始まる直前に確認しましょう。
+  - ※1行目の「時間、チュロス、...」は消さないでください。
+- 班員（アプリを試した人全員）  
+  - ➡ [模擬店会計アプリ](https://sell.suiranfes.blue/)を開き、保存したデータをすべて消す（消し方は**備考**に）
+  - 消したらテスト使用はしないでください
+  - ※またテストしたらそのデータもしっかり消すように
+  - 消しておかないと、テストで保存したデータが本番用としてスプレッドシートに残ってしまいます。
 
 あとは、さっき試してみたように使えば OK！
 
@@ -91,11 +93,11 @@ tags:
 
 1. [Google Cloud のオーディエンス](https://console.cloud.google.com/auth/audience?inv=1&invt=Abx3Qw&project=gssheettest-448509)を開き、下の方にある「ユーザー情報」の表から、その年に登録したアカウントを削除します
 削除はそれぞれの行のゴミ箱ボタンからできます
-2. 次の年のチーフが班員のアカウントを登録できるように、このプロジェクトの「オーナー」にします。
-    1. [Google Cloud のIAM](https://console.cloud.google.com/iam-admin/iam?inv=1&invt=AbyOEA&project=gssheettest-448509)を開き、Grant access を押します
-   ![GrantAccess](GrantAccess.png)
-    2. 「新しいプリンシパル」に次期チーフのGoogleメールアドレスを入力し、「ロール」でオーナーを選択したら保存
-   ![setNewOwner](setNewOwner.png)
-   ![owner](owner.png)
-3. スプレッドシートの「購入情報」のデータは、別のシートに移すなど、情報が混ざってしまわないようにしましょう
-※1行目の「日時、チュロス、...」は消さないでください。
+2. 次の年のチーフが班員のアカウントを登録できるように、このプロジェクトの「オーナー」にします。  
+   1. [Google Cloud の IAM](https://console.cloud.google.com/iam-admin/iam?inv=1&invt=AbyOEA&project=gssheettest-448509) を開き、Grant Access を押します
+      ![GrantAccess](GrantAccess.png)
+   2. 「新しいプリンシパル」に次期チーフの Google メールアドレスを入力し、「ロール」でオーナーを選択したら保存  
+      ![setNewOwner](setNewOwner.png)
+      ![owner](owner.png)
+3. スプレッドシートの「購入情報」のデータは、別のシートに移すなど、情報が混ざってしまわないようにしましょう  
+   ※1行目の「日時、チュロス、...」は消さないでください。
