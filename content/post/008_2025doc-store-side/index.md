@@ -17,7 +17,7 @@ tags:
 
 こんなアプリです ()
 
-![app.structre](suiran.sell.drawio.png)
+![Application structure](01-app-structure.png)
 
 試すのが早いので、まずは試してみましょう。
 
@@ -25,14 +25,14 @@ tags:
 - ※このアプリでは、**Google アカウント**を利用するので注意してください。
 
 1. (店側) [模擬店会計アプリ](https://sell.suiranfes.blue/)を開き、画面右下の人のマークから、ログインページに行き、Google アカウントにログイン  
-   (いくつか警告が出るかもしれませんが、その時は「続行」か「次へ」を押してください)
-   ![login](login.gif)
+   (いくつか警告が出るかもしれませんが、その時は「続行」か「次へ」を押してください)  
+   ![login](02-login.gif)
 2. (お客様側) [コチラのアプリ(お客さんが使う方)](https://shop.suiranfes.blue/)を開いて注文を入力して、QR コードを表示させる  
-   ![makeQR](makeQR.gif)
+   ![makeQR](03-makeQR.gif)
 3. (店側) [模擬店会計アプリ](https://sell.suiranfes.blue/)のカメラでその QR コードを読み取る  
-   ![QRscan](QRscan.gif)
+   ![QRscan](04-QRscan.gif)
 4. (店側) 表示された注文内容を確認し、受け取った金額を「入力金額」欄に入力。お釣りがあれば確認してお客さんに渡す  
-   ![confirm](comfirm.gif)
+   ![confirm](05-comfirm.gif)
 5. (店側) 注文に問題がなければ、画面下部の「データを保存」ボタンを押す
 
 良くできました！！
@@ -52,13 +52,13 @@ tags:
 1. 模擬店班チーフにGoogle Cloudの「GSsheet」プロジェクトに入れてもらう
    ※Googleアカウントで入れてもらってください
 2. [Google Cloud のオーディエンス](https://console.cloud.google.com/auth/audience?inv=1&invt=Abx3Qw&project=gssheettest-448509)を開き、下の方にある「Add User」をクリック  
-   ![add User](addUser.png)
+   ![Google Cloud / Audience Page](06-add-user.png)
 3. 当日アプリを使用する人の Google アカウントを登録  
    必ず**Googleアカウント**でお願いします  
-   ![登録](input.png)
+   ![Register](07-register.png)
 4. [スプレッドシート](https://docs.google.com/spreadsheets/d/1nmwhBjzqQ1J31PresVmXLAlLozgWs-WUZh1KmJuhawE/edit?gid=2000281178#gid=2000281178)の共有設定でも、当日アプリを使用する人の Google アカウントに編集を許可  
-   ![Google spread sheet 1](gsp.png)
-   ![Google spread sheet 2](gsp2.png)
+   ![Google spread sheet 1](08-gsp.png)
+   ![Google spread sheet 2](09-gsp2.png)
 
 #### 当日
 
@@ -85,19 +85,3 @@ tags:
 * [スプレッドシート](https://docs.google.com/spreadsheets/d/1nmwhBjzqQ1J31PresVmXLAlLozgWs-WUZh1KmJuhawE/edit?gid=2000281178#gid=2000281178)は、「購入情報」のシートを消さなければ何をしても大丈夫です(もし消してしまったら、同じ名前のシートを作れば大丈夫ですが、それまでのデータはすべて消えます)
 * データの保存がうまくいかなかったりしているときは、ログインしているかを確認してください
 * スプレッドシート内で情報が混ざってしまったら、そのデータが保存された時間帯などからある程度分けることは可能です（翠巒祭当日のデータかどうか、など）
-
-#### 引継ぎについて
-
-
-翠巒祭が終わったら、模擬店班チーフは次の年のために引継ぎをしましょう。
-
-1. [Google Cloud のオーディエンス](https://console.cloud.google.com/auth/audience?inv=1&invt=Abx3Qw&project=gssheettest-448509)を開き、下の方にある「ユーザー情報」の表から、その年に登録したアカウントを削除します
-削除はそれぞれの行のゴミ箱ボタンからできます
-2. 次の年のチーフが班員のアカウントを登録できるように、このプロジェクトの「オーナー」にします。  
-   1. [Google Cloud の IAM](https://console.cloud.google.com/iam-admin/iam?inv=1&invt=AbyOEA&project=gssheettest-448509) を開き、Grant Access を押します
-      ![GrantAccess](GrantAccess.png)
-   2. 「新しいプリンシパル」に次期チーフの Google メールアドレスを入力し、「ロール」でオーナーを選択したら保存  
-      ![setNewOwner](setNewOwner.png)
-      ![owner](owner.png)
-3. スプレッドシートの「購入情報」のデータは、別のシートに移すなど、情報が混ざってしまわないようにしましょう  
-   ※1行目の「日時、チュロス、...」は消さないでください。
