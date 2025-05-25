@@ -49,15 +49,15 @@ tags:
 
 #### 設定
 
-1. 前模擬店班チーフからGoogleアカウント(suirankaikei@gmail.com)を引き継ぐ
+1. 前模擬店班チーフから Google アカウント (suirankaikei@gmail.com) を引き継ぐ  
    詳しくは、[引き継ぎの記事](https://blog.suiranfes.blue/post/suiran-010/)の「Spread Sheet 関係」の3へ
-2. suirankaikei@gmail.comにログイン
-2. [Google Cloud のオーディエンス](https://console.cloud.google.com/auth/audience?inv=1&invt=Abx3Qw&project=gssheettest-448509)を開き、下の方にある「Add User」をクリック  
+1. Google アカウント (suirankaikei@gmail.com) にログイン
+1. [Google Cloud のオーディエンス](https://console.cloud.google.com/auth/audience?inv=1&invt=Abx3Qw&project=gssheettest-448509)を開き、下の方にある「Add User」をクリック  
    ![Google Cloud / Audience Page](06-add-user.png)
-3. 当日アプリを使用する人の Google アカウントを登録  
+1. 当日アプリを使用する人の Google アカウントを登録  
    必ず**Googleアカウント**でお願いします  
    ![Register](07-register.png)
-4. [スプレッドシート](https://docs.google.com/spreadsheets/d/1nmwhBjzqQ1J31PresVmXLAlLozgWs-WUZh1KmJuhawE/edit?gid=2000281178#gid=2000281178)の共有設定でも、当日アプリを使用する人の Google アカウントに編集を許可  
+1. [スプレッドシート](https://docs.google.com/spreadsheets/d/1nmwhBjzqQ1J31PresVmXLAlLozgWs-WUZh1KmJuhawE/edit?gid=2000281178#gid=2000281178)の共有設定でも、当日アプリを使用する人の Google アカウントに編集を許可  
    ![Google spread sheet 1](08-gsp.png)
    ![Google spread sheet 2](09-gsp2.png)
 
